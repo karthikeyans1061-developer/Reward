@@ -31,9 +31,8 @@ export function getTamilEquivalent(tanglish: string): string {
   const len = tanglish.toLowerCase();
 
   while (i < len.length) {
-    let char1 = len[i];
-    let char2 = len[i + 1] || "";
-    let char3 = len[i + 2] || "";
+    const char1 = len[i];
+    const char2 = len[i + 1] || "";
 
     // Check 3-char consonants (like th/zh/ch/sh) + vowels
     let cons = "";
@@ -46,13 +45,13 @@ export function getTamilEquivalent(tanglish: string): string {
     else if (consonantMap[char1]) { cons = char1; consLen = 1; }
 
     if (cons) {
-      let tamilCons = consonantMap[cons];
+      const tamilCons = consonantMap[cons];
       let vowelPart = "";
       let vowelLen = 0;
 
       // Check next chars for vowels
-      let next1 = len[i + consLen] || "";
-      let next2 = len[i + consLen + 1] || "";
+      const next1 = len[i + consLen] || "";
+      const next2 = len[i + consLen + 1] || "";
 
       if ((next1 === "a" && next2 === "a") || (next1 === "e" && next2 === "e") || (next1 === "o" && next2 === "o")) {
         vowelPart = next1 + next2;
