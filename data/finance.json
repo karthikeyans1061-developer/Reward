@@ -1,0 +1,71 @@
+{
+  "income": [
+    {
+      "date": "2026-09-05",
+      "category": "Salary",
+      "amount": 39700,
+      "organisationName": "Aparajitha",
+      "id": "e07a899b-d423-4360-8b23-9ae992f78f0f"
+    },
+    {
+      "date": "2026-01-05",
+      "category": "Salary",
+      "amount": 34200,
+      "organisationName": "Aparajitha",
+      "id": "a7a05bb4-be97-4959-97a0-768a76e94093"
+    },
+    {
+      "date": "2026-02-05",
+      "category": "Salary",
+      "amount": 34200,
+      "organisationName": "Aparajitha",
+      "id": "4c536681-e145-46f3-8f59-b085ef41cf6a"
+    },
+    {
+      "date": "2026-03-05",
+      "category": "Salary",
+      "amount": 34200,
+      "organisationName": "Aparajitha",
+      "id": "a8e83f9c-43c7-44c0-aa41-23263dbf9112"
+    },
+    {
+      "date": "2026-04-05",
+      "category": "Salary",
+      "amount": 34200,
+      "organisationName": "Aparajitha",
+      "id": "107591a6-d0fd-480c-9f91-ec7eb6bac5f5"
+    },
+    {
+      "date": "2026-05-05",
+      "category": "Salary",
+      "amount": 34200,
+      "organisationName": "Aparajitha",
+      "id": "5fa5e93b-f3a3-4c91-8e32-5822cceac487"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "Salary",
+      "amount": 34200,
+      "organisationName": "Aparajitha",
+      "id": "0f54520e-e57f-4211-b91d-f828e832f4ef"
+    },
+    {
+      "date": "2026-07-05",
+      "category": "Salary",
+      "amount": 39700,
+      "organisationName": "Aparajitha",
+      "id": "c4d3a7a8-73aa-4904-be8b-8e0faf86edfd"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "Salary",
+      "amount": 39700,
+      "organisationName": "Aparajitha",
+      "id": "a8cfee39-f08c-4b87-919e-db195a6b2a6a"
+    }
+  ],
+  "expenses": [],
+  "savings": [],
+  "debts": [],
+  "accessories": []
+}

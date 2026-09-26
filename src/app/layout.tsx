@@ -1,22 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap 5 CSS globally
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import { ReceiptProvider } from "../context/ReceiptContext";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Moi Receipt App",
-  description: "Generate customary Moi gift receipts",
+  title: "Ledger | Personal Finance",
+  description: "A clear overview of your personal finances.",
 };
 
 export default function RootLayout({
@@ -25,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en">
       <body>
         <ReceiptProvider>
           {children}
